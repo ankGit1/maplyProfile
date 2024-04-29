@@ -4,6 +4,7 @@ MaplyProfile is a React application designed to showcase user profiles and their
 Folder Structure
 The application follows a specific folder structure to organize its components efficiently. Here's an overview:
 
+```
 sql
 Copy code
 src/
@@ -17,7 +18,7 @@ src/
 ├── redux/
 │ ├── userSlice.js
 │ ├── store.js
-│  
+│
  │
 ├── home/
 │ ├── Home.js
@@ -44,6 +45,7 @@ src/
 │ └── ...
 │
 └── ...
+```
 
 #Components Overview
 Login: Components related to user authentication and login functionality.
