@@ -1,0 +1,26 @@
+.home_topDiv {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+.home_leftDiv {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  background-color: #e2ffef;
+}
+.home_rightDiv {
+  width: 80%;
+  padding: 16px 24px;
+  /* background-color: yellow; */
+  overflow: auto;
+}
+
+@media screen and (max-width: 950px) {
+  .home_leftDiv {
+    width: 50px;
+  }
+  .home_rightDiv {
+    width: -webkit-fill-available;
+  }
+}

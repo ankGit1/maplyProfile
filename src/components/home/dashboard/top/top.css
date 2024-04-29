@@ -1,0 +1,15 @@
+.dash_tab {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 140px;
+  padding: 10px;
+  border-radius: 5px;
+  border-bottom: solid 5px green;
+  /* background-color: #e2ffef; */
+  background-image: url("./images/tabBack.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

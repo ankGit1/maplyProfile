@@ -1,0 +1,59 @@
+.card_topDiv {
+  width: 100%;
+  height: 260px;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0px #bcb0b0;
+}
+.sideImg {
+  flex: 2;
+  background-image: url("/images/antImg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.mainCard {
+  flex: 4;
+  position: relative;
+  padding: 24px;
+}
+.mainImgDiv {
+  display: flex;
+  justify-content: space-around;
+}
+.mainCard img {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  left: -30%;
+  border-radius: 50%;
+  border: solid 5px white;
+  object-fit: cover;
+}
+.mainCard span {
+  position: absolute;
+  top: 20%;
+  right: 10%;
+  color: green;
+}
+.userDesc {
+  font-size: 14px;
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 18px;
+  margin-bottom: 8px;
+}
+.card_links {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-top: 16px;
+  color: green;
+}
+.smallSpace {
+  margin-right: 5px;
+}

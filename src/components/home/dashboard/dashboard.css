@@ -1,0 +1,14 @@
+.divTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 42px;
+  background-color: #f4fff4;
+  border-radius: 5px;
+  border-left: solid green;
+  border-right: solid green;
+  padding: 16px;
+}
+.divTitle span {
+  font-size: 14px;
+}
